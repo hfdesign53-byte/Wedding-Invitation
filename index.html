@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Helmi & Sellina</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="Helmi&Sellina.css">
+</head>
+
+<body>
+
+<!-- AUDIO -->
+<audio id="bg-Music2" autoplay muted loop preload="auto">
+  <source src="musik/Music2.mp3" type="audio/mpeg">
+</audio>
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("bg-Music2");
+
+    function playAudio() {
+        audio.muted = false;
+        audio.play().then(() => {
+            console.log("PLAY SUCCESS");
+        }).catch(err => {
+            console.log("ERROR:", err);
+        });
+    }
+
+    // Pakai interaksi apa pun
+    document.addEventListener("click", playAudio, { once: true });
+    document.addEventListener("scroll", playAudio, { once: true });
+    document.addEventListener("mousemove", playAudio, { once: true });
+});
+</script>
+
+    <!-- SECTION: OPENING (OVERLAY) -->
+    <div id="opening-overlay" class="opening-overlay">
+        <div class="overlay-content">
+            <p class="opening-title">THE WEDDING OF</p>
+            <h1 class="reveal-text gold-text title-serif">HELMI & SELLINA  </h1>
+            <div class="envelope-wrapper">
+               <div class="guest-name">
+    <small class="opening-label">
+    KEPADA YTH : </small>
+    <span id="guest-name">Tamu Undangan</span>
+</div>
+
+                <button id="btn-open" class="btn-gold">
+                    <i class="fa-solid fa-envelope-open"></i> BUKA UNDANGAN
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-scroll">
+        
+        <!-- SECTION: HERO -->
+        <section class="hero-section">
+            <div class="hero-bg"></div>
+            <div class="container hero-container">
+                <p class="subtitle fade-up">WE ARE GETTING MARRIED</p>
+                <h1 class="main-name fade-up">HELMI <span class="gold-text">&</span> SELLINA</h1>
+                <p class="hero-date fade-up">05 SEPTEMBER 2026</p>
+                <div class="scroll-down fade-up">
+                    <span>SCROLL DOWN</span>
+
+                  <div class="line"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: QUOTE -->
+        <section class="quote-section section-padding">
+            <div class="container text-center">
+                <i class="fa-solid fa-quote-left gold-text reveal-up"></i>
+                <p class="quote-text reveal-up">
+                    "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya."
+                </p>
+                <p class="quote-author reveal-up">— QS. Ar-Rum: 21</p>
+            </div>
+        </section>
+
+        <!-- SECTION: SAVE THE DATE -->
+<section class="save-date-section section-padding">
+    <div class="container text-center">
+
+        <p class="invite-text">WE INVITE YOU TO CELEBRATE</p>
+        <h2 class="title-serif gold-text reveal-up"style="margin:0;">SAVE THE DATE</h2>
+
+        <h5 class="event-date reveal-up" style="margin-bottom:20px;">05 SEPTEMBER 2026</h5>
+
+        <div id="timer" class="reveal-up">
+            <div class="timer-box">
+                <span id="days">00</span>
+                <p>Hari</p>
+            </div>
+            <div class="timer-box">
+                <span id="hours">00</span>
+                <p>Jam</p>
+            </div>
+            <div class="timer-box">
+                <span id="minutes">00</span>
+                <p>Menit</p>
+            </div>
+            <div class="timer-box">
+                <span id="seconds">00</span>
+                <p>Detik</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SECTION: LOVE STORY -->
+
+        <div class="text-center reveal-up">
+    <h2 class="title-serif gold-text">OUR LOVE STORY</h2>
+</div>
+            <!-- ITEM 1 -->
+            <div class="timeline-item reveal-up">
+                <div class="timeline-image">
+                    <img src="foto/FOTO 9.jpg" alt="First Meet">
+                </div>
+
+                <div class="timeline-content">
+                    <span class="timeline-year">SMP (2015-2017)</span>
+                    <h3>AWAL PERTEMUAN</h3>
+                    <p>
+                        Kami pertama kali dipertemukan saat masih duduk di bangku SMP.
+                        Dari sebuah pertemanan sederhana, tumbuh cerita yang perlahan
+                        membawa kami semakin dekat satu sama lain.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="timeline-item reverse reveal-up">
+                <div class="timeline-image">
+                    <img src="foto/FOTO 6.jpg" alt="Relationship">
+                </div>
+
+                <div class="timeline-content">
+                    <span class="timeline-year">SMK (2017-2020)</span>
+                    <h3>TUMBUH BERSAMA</h3>
+                    <p>
+                        Memasuki masa SMK, kami mulai memahami arti kenyamanan,
+                        dukungan, dan kebersamaan. Banyak cerita, tawa, dan perjuangan
+                        yang kami lewati bersama hingga hubungan ini semakin kuat.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="timeline-item reveal-up">
+                <div class="timeline-image">
+                    <img src="foto/FOTO 7.jpg" alt="Engagement">
+                </div>
+
+                <div class="timeline-content">
+                    <span class="timeline-year">SETELAH LULUS (2020)</span>
+                    <h3>MENUJU MASA DEPAN</h3>
+                    <p>
+                        Setelah lulus sekolah, perjalanan kami tidak selalu mudah.
+                        Namun waktu mengajarkan kami untuk tetap bertahan,
+                        saling percaya, dan terus berjalan bersama menghadapi kehidupan.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ITEM 4 -->
+<div class="timeline-item reverse reveal-up">
+    <div class="timeline-image">
+        <img src="foto/FOTO 8.jpg" alt="Engagement">
+    </div>
+
+    <div class="timeline-content">
+        <span class="timeline-year">TUNANGAN (DESEMBER 2023)</span>
+        <h3>IKATAN PERTAMA</h3>
+        <p>
+            Setelah melewati banyak perjalanan bersama, kami memutuskan
+            untuk membawa hubungan ini ke tahap yang lebih serius melalui
+            sebuah ikatan pertunangan yang penuh kebahagiaan dan harapan.
+        </p>
+    </div>
+</div>
+            <!-- ITEM 5 -->
+            <div class="timeline-item reverse reveal-up">
+                <div class="timeline-image">
+                    <img src="foto/PRE 3.jpg" alt="Wedding">
+                </div>
+
+                <div class="timeline-content">
+                    <span class="timeline-year">5 SEPTEMBER 2026</span>
+                    <h3>JENJANG PERNIKAHAN</h3>
+                    <p>
+                        Hingga akhirnya kami memutuskan untuk melangkah ke jenjang
+                        pernikahan. Dengan penuh rasa syukur, kami siap memulai
+                        babak baru sebagai pasangan suami istri.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- SECTION: GALLERY -->
+        <section class="gallery-section section-padding">
+            <div class="container">
+                <div class="text-center reveal-up">
+                <h2 class="title-serif reveal-up">OUR GALLERY</span></h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal-up"><img src="foto/PRE 1.jpg" alt="Prewedding 1"></div>
+                    <div class="gallery-item reveal-up tall"><img src="foto/PRE 2.jpg" alt="Prewedding 2"></div>
+                    <div class="gallery-item reveal-up"><img src="foto/PRE 3.jpg" alt="Prewedding 3"></div>
+                    <div class="gallery-item reveal-up"><img src="foto/PRE 4.jpg" alt="Prewedding 4"></div>
+                </div>
+            </div>
+        </section>
+
+       <section class="location-section section-padding">
+    <div class="container">
+
+        <div class="text-center reveal-up">
+   <h2 class="title-serif reveal-up">
+            LOCATION & RSVP 
+        </h2>
+
+        <div class="map-box reveal-up">
+
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://www.google.com/maps?q=-6.402744,107.456915&z=17&output=embed"
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <div class="map-info">
+                <h3 class="gold-text">MASJID ASY-SYUHADA</h3>
+                <p>CIKAMPEK, KARAWANG, JAWA BARAT</p>
+
+                <a href="https://maps.app.goo.gl/T8p6xpCyoaDxfhJF6" target="_blank" class="btn-gold btn-maps">
+                    BUKA DI GOOGLE MAPS
+                </a>
+            </div>
+
+        </div>
+        <p class="rsvp-text reveal-up">
+    Kehadiran serta doa restu dari Bapak/Ibu/Saudara/i
+    akan menjadi kebahagiaan tersendiri bagi kami.
+    Mohon konfirmasi kehadiran melalui tombol di bawah ini.
+</p>
+
+        <!-- PINDAHKAN KE SINI -->
+        <div class="rsvp-btn-container reveal-up">
+            <button id="btn-rsvp" class="btn-gold large">
+                KONFIRMASI KEHADIRAN
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<!-- RSVP POPUP -->
+<div id="rsvp-popup" class="rsvp-popup">
+
+    <div class="rsvp-content">
+
+        <!-- CLOSE ICON -->
+        <button id="close-rsvp" class="close-icon">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <h3 class="gold-text">
+            KONFIRMASI KEHADIRAN
+        </h3>
+
+        <p class="rsvp-popup-text">
+            Pilih kontak WhatsApp di bawah ini
+        </p>
+
+        <a href="https://wa.me/6289677628404"
+           target="_blank"
+           class="btn-gold">
+
+           WhatsApp Helmi
+
+        </a>
+
+        <a href="https://wa.me/62895365683049"
+           target="_blank"
+           class="btn-gold">
+
+           WhatsApp Sellina
+
+        </a>
+
+    </div>
+
+</div>
+
+<!-- SECTION: WEDDING GIFT -->
+<section class="gift-section section-padding">
+
+    <div class="container">
+
+        <!-- TITLE -->
+        <div class="gift-heading text-center reveal-up">
+
+            <h2 class="title-serif">
+                WEDDING GIFT</span>
+            </h2>
+
+            <p class="gift-description">
+                Kehadiran dan doa restu Anda merupakan hadiah terindah
+                bagi kami. Namun apabila ingin memberikan tanda kasih,
+                dapat melalui fitur di bawah ini.
+            </p>
+
+        </div>
+
+<!-- CARD 1 -->
+<div class="gift-card reveal-up">
+
+    <div class="gift-icon">
+        <i class="fa-solid fa-building-columns"></i>
+    </div>
+
+    <h3>Transfer Rekening</h3>
+
+    <!-- REKENING 1 -->
+    <div class="rekening-box">
+
+        <p class="gift-text">
+            PERMATA BANK
+        </p>
+
+        <h4 id="rekening1">
+            9905202925
+        </h4>
+
+        <p class="gift-name">
+            a.n Helmi
+        </p>
+
+        <button class="btn-gold gift-btn"
+            onclick="copyRekening('rekening1')">
+
+            SALIN REKENING
+
+        </button>
+
+    </div>
+
+    <!-- REKENING 2 -->
+     <div class="gift-icon">
+        <i class="fa-solid fa-building-columns"></i>
+    </div>
+    <div class="rekening-box">
+
+        <p class="gift-text">
+            BANK MANDIRI
+        </p>
+
+        <h4 id="rekening2">
+            1730006986724
+        </h4>
+
+        <p class="gift-name">
+            a.n Sellina
+        </p>
+
+        <button class="btn-gold gift-btn"
+            onclick="copyRekening('rekening2')">
+
+            SALIN REKENING
+
+        </button>
+
+    </div>
+
+</div>
+
+            <!-- CARD 2 -->
+            <div class="gift-card reveal-up">
+
+                <div class="gift-icon">
+                    <i class="fa-solid fa-gift"></i>
+                </div>
+
+                <h3>Kirim Hadiah</h3>
+
+                <p class="gift-address">
+                    Kp. Sukamulya Bayur, Desa Jomin Barat, Jalan SMA PGRI, RT 03 RW 06 (Belakang Kalula Koffie)
+                </p>
+
+                <!-- BUTTON -->
+                <a href="https://maps.app.goo.gl/PLUr5m4qBTvVHj6HA?g_st=ac"
+                   target="_blank"
+                   class="btn-gold gift-btn">
+
+                   LIHAT LOKASI
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<h2 class="closing-title gold-text">
+            KAMI MENANTIKAN KEHADIRAN ANDA
+        </h2>
+
+        <p class="closing-text">
+            Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami mengucapkan terima kasih yang sebesar-besarnya.
+        </p>
+
+        <div class="closing-line"></div>
+
+        <p class="thankyou-text">
+            Terima Kasih
+        </p>
+
+        <h3 class="closing-name">
+            HELMI <span class="gold-text">&</span> SELLINA
+        </h3>
+
+    </div>
+</section>
+
+        <footer class="text-center">
+            <p>Made with Love - Helmi & Sellina © 2026</p>
+        </footer>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script src="Helmi&Sellina.js"></script>
+</body>
+</html>
