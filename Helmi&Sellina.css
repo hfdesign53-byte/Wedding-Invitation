@@ -52,7 +52,7 @@ body::before {
             rgba(0,0,0,0.30),
             rgba(0,0,0,0.60)
         ),
-        url('foto/PRE\ 1.jpg');
+        url('PRE%201.jpg');
 
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@ body::before {
 .opening-overlay {
     position: fixed;
     inset: 0;
-    background: url('foto/PRE\ 1.jpg') center/cover no-repeat;
+    background: url('PRE%201.jpg') center/cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -172,7 +172,7 @@ body::before {
     position: absolute;
     inset: 0;
     background: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.40)),
-                url('foto/FOTO\ 5.jpg') center/cover no-repeat;
+                url('FOTO%205.jpg') center/cover no-repeat;
     background-size: cover;
     background-position: center;
     transform: scale(1.1);
