@@ -184,7 +184,7 @@ body::before {
 
 .subtitle {
     letter-spacing: 4px;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: -150px;
 }
 
@@ -195,13 +195,13 @@ body::before {
 }
 
 .hero-date {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 3px;
     color: var(--gold);
 }
 
 /* SCROLL */
-.scroll-down { position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); font-family: var(--montserrat bold); font-size: 0.7rem; letter-spacing: 2px; } 
+.scroll-down { position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); font-family: var(--montserrat bold); font-size: 0.5rem; letter-spacing: 2px; } 
 .scroll-down .line { width: 4px; height: 80px; background: rgba(197,160,89,0.2); margin: 15px auto 0; position: relative; overflow: hidden; } 
 .scroll-down .line::after { content: ''; position: absolute; top: -100%; left: 0; width: 100%; height: 50%; background: linear-gradient( to bottom, transparent, var(--gold), transparent ); animation: line-drop 1.5s infinite; } @keyframes line-drop { 0% { top: -100%; opacity: 0; } 30% { opacity: 1; } 100% { top: 100%; opacity: 0; } }
 /* =========================
