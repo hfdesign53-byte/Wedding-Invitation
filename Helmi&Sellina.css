@@ -229,7 +229,7 @@ body::before {
 .invite-text{
     position: relative;
     display: inline-block;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
@@ -475,7 +475,7 @@ body::before {
 .timeline-content p {
     color: #b0b0b0;
     line-height: 1,2;
-    font-size: 2px;
+    font-size: 1px;
     max-width: 20px;
 }
 
