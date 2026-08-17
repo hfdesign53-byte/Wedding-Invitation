@@ -356,7 +356,6 @@ body::before {
         font-size: 14px;
         padding: 0 10px;
     }
-}
 .event-times {
     display: flex;
     justify-content: center;
@@ -371,21 +370,14 @@ body::before {
 
 .event-time h4 {
     margin-bottom: 8px;
-    font-family: var(--font-serif);
-    font-weight: 700;
     font-size: 18px;
     letter-spacing: 2px;
     color: var(--gold);
 }
+
 .event-time p {
     margin: 0;
-    font-size: 14px;
-}
-@media (max-width: 600px) {
-    .event-times {
-        flex-direction: column;
-        gap: 20px;
-    }
+    font-size: 13px;
 }
 /* =========================
    LOVE STORY SECTION
