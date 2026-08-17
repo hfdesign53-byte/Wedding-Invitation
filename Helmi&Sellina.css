@@ -213,7 +213,7 @@ body::before {
     font-style: italic;
     max-width: 100%;
     margin: 70px;
-    color: var(--g);
+    color: var(--gold);
 }
 
 /* =========================
@@ -363,6 +363,7 @@ body::before {
     margin-bottom: 8px;
     font-size: 18px;
     letter-spacing: 2px;
+    color: var(--gold);
 }
 
 .event-time p {
