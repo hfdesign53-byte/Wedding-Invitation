@@ -361,11 +361,12 @@ body::before {
 
 .event-time h4 {
     margin-bottom: 8px;
-    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 14px;
     letter-spacing: 2px;
-    color: var(--gold);
+    color: #C9A227;
 }
-
 .event-time p {
     margin: 0;
     font-size: 10px;
