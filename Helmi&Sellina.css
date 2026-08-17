@@ -371,7 +371,7 @@ body::before {
 
 .event-time h4 {
     margin-bottom: 8px;
-    font-family: "Playfair Display", bold serif;
+    font-family: var(--font-serif);
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 2px;
