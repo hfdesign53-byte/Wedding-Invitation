@@ -361,6 +361,7 @@ body::before {
 .event-time h4 {
     margin-bottom: 8px;
     font-size: 18px;
+    font-family: var(--font-serif);
     letter-spacing: 2px;
     color: var(--gold);
 }
