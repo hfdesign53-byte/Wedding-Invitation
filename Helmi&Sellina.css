@@ -361,13 +361,13 @@ body::before {
 
 .event-time h4 {
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 2px;
 }
 
 .event-time p {
     margin: 0;
-    font-size: 13px;
+    font-size: 10px;
 }
 @media (max-width: 600px) {
     .event-times {
