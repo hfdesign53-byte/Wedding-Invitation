@@ -208,7 +208,7 @@ body::before {
    QUOTE
 ========================= */
 .quote-reference {
-    font-family: "Playfair Display", serif;
+    font-family:  var(--font-serif);
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
