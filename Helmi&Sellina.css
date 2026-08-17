@@ -207,12 +207,22 @@ body::before {
 /* =========================
    QUOTE
 ========================= */
-.quote-text {
+.quote-reference {
+    font-family: "Playfair Display", serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--gold);
+    margin-top: 20px;
+}
+
+.quote-reference .ayah {
     font-family: var(--font-serif);
-    font-size: 15px;
-    font-style: italic;
-    max-width: 100%;
-    margin: 70px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 6px;
     color: var(--gold);
 }
 
@@ -361,15 +371,15 @@ body::before {
 
 .event-time h4 {
     margin-bottom: 8px;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", bold serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 2px;
-    color: #C9A227;
+    color: var(--gold);
 }
 .event-time p {
     margin: 0;
-    font-size: 10px;
+    font-size: 14px;
 }
 @media (max-width: 600px) {
     .event-times {
