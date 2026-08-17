@@ -346,6 +346,7 @@ body::before {
         font-size: 14px;
         padding: 0 10px;
     }
+    
 .event-times {
     display: flex;
     justify-content: center;
@@ -360,8 +361,9 @@ body::before {
 
 .event-time h4 {
     margin-bottom: 8px;
-    font-size: 18px;
     font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 18px;
     letter-spacing: 2px;
     color: var(--gold);
 }
